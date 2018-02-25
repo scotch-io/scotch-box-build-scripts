@@ -67,7 +67,7 @@ reboot_webserver_helper() {
 # =            CORE / BASE STUFF            =
 # =========================================*/
 sudo apt-get update
-sudo apt-get -y upgrade
+# sudo apt-get -y upgrade
 sudo apt-get install -y build-essential
 sudo apt-get install -y tcl
 sudo apt-get install -y software-properties-common
